@@ -1,0 +1,33 @@
+package com.sample;
+
+public class Sample {
+
+	String s = null;
+	
+	//print stack trace  --> provided by Default handler
+	
+	public void show() {
+		
+		try {
+		
+		System.out.println(s.length());
+		}
+		catch(NullPointerException e) {
+			
+			System.out.println("String may returns null value....");
+		}
+		
+		System.out.println("Hi.....");
+		
+		System.out.println("Hello.....");
+
+	}
+
+
+	public static void main(String[] args) {
+		
+		new Sample().show();
+
+	}
+
+}
