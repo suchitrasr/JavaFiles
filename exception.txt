@@ -6,8 +6,6 @@ public class Sample {
 
 	String s = null;
 	
-	//print stack trace  --> provided by Default handler
-	
 	public void show() {
 		
 		try {
